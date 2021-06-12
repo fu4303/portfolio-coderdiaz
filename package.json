@@ -1,0 +1,25 @@
+{
+  "name": "digital-garden",
+  "description": "My personal digital garden",
+  "version": "0.0.0",
+  "author": {
+    "email": "hey@coderdiaz.me",
+    "name": "Javier Diaz",
+    "url": "https://coderdiaz.me"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderdiaz/digital-garden.git"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^10.2.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
