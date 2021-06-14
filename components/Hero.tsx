@@ -4,9 +4,9 @@ import TwitterIcon from "@/components/icons/Twitter";
 
 export default function Hero() {
   return (
-    <section className="py-24">
-      <Container className="max-w-screen-lg">
-        <span className="inline-block uppercase tracking-widest text-gray-400 mb-4">
+    <section className="pt-24 pb-12">
+      <Container className="relative max-w-screen-lg">
+        <span className="inline-block uppercase font-medium tracking-widest text-gray-400 mb-4">
           Hello, my name is Javier
         </span>
         <h1 className="font-display font-bold text-7xl text-white leading-tight mr-32 mb-4">
@@ -26,6 +26,11 @@ export default function Hero() {
             </a>
           </div>
         </div>
+
+        {/* Blobs */}
+        <div className="absolute top-0 -left-4 w-96 h-96 bg-purple-300 rounded-full opacity-10 mix-blend-multiply filter blur-2xl animate-blob" />
+        <div className="absolute top-0 -right-4 w-96 h-96 bg-yellow-300 rounded-full opacity-10 mix-blend-multiply filter blur-2xl animate-blob animation-delay-2000" />
+        <div className="absolute -bottom-8 left-1/3 w-96 h-96 bg-pink-300 rounded-full opacity-10 mix-blend-multiply filter blur-2xl animate-blob animation-delay-4000" />
       </Container>
     </section>
   );
